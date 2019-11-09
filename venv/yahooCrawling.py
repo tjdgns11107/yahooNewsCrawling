@@ -42,8 +42,8 @@ while page <= 50:
             break
         print(todayNewsCnt)
 
-
-    # print(todayNewsCnt)
+###이부분 해결하자
+    # getNewsCount(news_links)
     page+=10
 
 
