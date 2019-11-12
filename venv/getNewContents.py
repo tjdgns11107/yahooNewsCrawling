@@ -1,0 +1,30 @@
+import requests
+from bs4 import BeautifulSoup
+
+
+# 뉴스의 제목, 내용, 언론사를 NewsContent클래스에 저장하기 위해서 NewsContent로 리턴
+def getNewContents(news_link):
+    response2 = requests.get(news_link)
+    html2 = response2.text
+    soup2 = BeautifulSoup(html2, 'html.parser')
+
+    mediaNullCheck = soup2.select_one('p.ynCobrandBanner > a> img')['alt']
+
+    title = soup2.select_one('.hd > h1').text
+    content = soup2.select_one('p.ynDetailText').text
+    # media가 없을 경우를 위한 3항 연산
+    media = mediaNullCheck if mediaNullCheck else "None media"
+
+    # 디버깅용이니 삭제하면됨==
+    print(title)
+    print(media)
+    # ========================
+
+    return title, content, media
+    # getTitle = soup2.select_one('.hd > h1').text
+    # getContent = soup2.select_one('p.ynDetailText').text
+    # getMedia = soup2.select_one('p.ynCobrandBanner > a> img')['alt']
+
+    # print(getTitle)
+    # print(getContent)
+    # print(getMedia)
