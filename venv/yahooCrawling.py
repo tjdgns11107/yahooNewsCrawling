@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 from NewsContent import NewsContent
-
+import pandas as pd
 #'%s月%s日'포멧에 맞는 오늘 날짜 리턴
 def todayDate():
     now = datetime.now()
@@ -50,9 +50,9 @@ newsContents =[]
 news_title=[]
 news_content=[]
 news_media=[]
+result =[]
 
-
-while page < 30:
+while page < 40:
     #검색 사이트
     url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p=ソフトバンク&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b="+str(page)
 
@@ -82,8 +82,9 @@ while page < 30:
         newsContents.append(getNewContents(news_links[atag + page - 1]))
         print(todayNewsCnt)
 
+table = pd.DataFrame
 
-###이부분 해결하자
+    ###이부분 해결하자
     # getNewsCount(news_links)
     page+=10
 
