@@ -1,5 +1,8 @@
 import CrawlingModule
 
-cm = CrawlingModule.md()
+
+keyword = 'ソフトバンク'
+
+cm = CrawlingModule.md(keyword)
 
 cm.runCrawling()

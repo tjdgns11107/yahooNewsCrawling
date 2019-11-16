@@ -10,21 +10,17 @@ import getNewContents
 
 class md:
     # 뉴스의 날짜와 오늘날짜의 확인
-
+    def __init__(self, keyword):
+        self.keyword = keyword
     def runCrawling(self):
         page = 1
         todayNewsCnt = 0
         news_links = []
         newsContents = []
 
-        news_title = []
-        news_content = []
-        news_media = []
-        result = []
-        #
         while page < 40:
             # 검색 사이트
-            url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p=ソフトバンク&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
+            url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p="+self.keyword+"&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
                 page)
 
             # url 요청해서 응답 받아서 저장
@@ -64,7 +60,7 @@ class md:
         print(str(dir_folder))
         if not dir_folder.exists():
             dir_folder.mkdir(parents=True)
-        table.to_csv('./' + str(dir_folder) + '/newsContent_' + MyDateForm.todayDateTypeE(), index=False)
+        table.to_csv('./' + str(dir_folder) + '/'+self.keyword+'_'+ MyDateForm.todayDateTypeE(), index=False)
 
         # =====================
         # 그냥 확인용 지워야함==
