@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4587c19-dcb7-4585-8ba5-c84c60bc97d4" name="Default Changelist" comment="모듈화 성공">
+      <change afterPath="$PROJECT_DIR$/venv/getTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/CrawlingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/CrawlingModule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/MainCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MainCrawling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/getNewContents.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/getNewContents.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MellonChartCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/MellonChartCrawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/getTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainCrawling (1)" />
+        <item itemvalue="Python.getTest" />
         <item itemvalue="Python.MainCrawling" />
         <item itemvalue="Python.CrawlingModule" />
         <item itemvalue="Python.yahooCrawling" />
-        <item itemvalue="Python.MellonChartCrawling" />
       </list>
     </recent_temporary>
   </component>

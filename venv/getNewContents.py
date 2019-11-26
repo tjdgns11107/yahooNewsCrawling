@@ -2,16 +2,36 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# 뉴스의 제목, 내용, 언론사를 NewsContent클래스에 저장하기 위해서 NewsContent로 리턴
-def getNewContents(news_link):
+class NotYnDetailTextException(Exception):
+    def __init__(self):
+        super().__init__('에러메시지')
+class NotYjDirectSLinkTargetException(Exception):
+    def __init__(self):
+        super().__init__('에러메시지')
+
+def getNewContents(news_link,keyword):
     response2 = requests.get(news_link)
     html2 = response2.text
     soup2 = BeautifulSoup(html2, 'html.parser')
 
-    mediaNullCheck = soup2.select_one('p.ynCobrandBanner > a> img')['alt']
+    try:
+        mediaNullCheck = soup2.select_one('p.ynCobrandBanner > a> img')['alt']
+    except:
+        mediaNullCheck=0
+        print('not media');
 
     title = soup2.select_one('.hd > h1').text
-    content = soup2.select_one('p.ynDetailText').text
+    try:
+        if(soup2.select_one('p.ynDetailText')):
+            content = soup2.select_one('p.ynDetailText').text
+        elif(soup2.select_one('.yjDirectSLinkTarget')):
+            content = soup2.select_one('.yjDirectSLinkTarget').text
+        else:
+            content=0
+
+    except:
+        print(e)
+
     # media가 없을 경우를 위한 3항 연산
     media = mediaNullCheck if mediaNullCheck else "None media"
 
@@ -20,7 +40,7 @@ def getNewContents(news_link):
     print(media)
     # ========================
 
-    return title, content, media
+    return title, content, media, keyword
     # getTitle = soup2.select_one('.hd > h1').text
     # getContent = soup2.select_one('p.ynDetailText').text
     # getMedia = soup2.select_one('p.ynCobrandBanner > a> img')['alt']
