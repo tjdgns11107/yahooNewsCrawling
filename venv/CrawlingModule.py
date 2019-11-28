@@ -49,12 +49,11 @@ class md:
                     else:
                         return todayNewsCnt
 
-
-                ###이부분 해결하자
-                # getNewsCount(news_links)
                 page += 10
-
-        lastPageNum = pageCnt()
+                print(page)
+        count = pageCnt()
+        print('count : ', count)
+        lastPageNum = count
         while page < lastPageNum:
             # 검색 사이트
             url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p="+self.keyword+"&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(

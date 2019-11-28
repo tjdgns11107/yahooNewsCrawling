@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4587c19-dcb7-4585-8ba5-c84c60bc97d4" name="Default Changelist" comment="모듈화 성공">
-      <change afterPath="$PROJECT_DIR$/venv/getTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/getdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/CrawlingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/CrawlingModule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/MainCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MainCrawling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/getNewContents.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/getNewContents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/getTest.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\PythonTest\crawling\venv" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainCrawling (1)">
+  <component name="RunManager" selected="Python.getdata">
     <configuration name="CrawlingModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MainCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getNewContents" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Scripts/MainCrawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/getNewContents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahooCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/yahooCrawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/getdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getdata" />
         <item itemvalue="Python.MainCrawling (1)" />
-        <item itemvalue="Python.getTest" />
-        <item itemvalue="Python.MainCrawling" />
+        <item itemvalue="Python.getNewContents" />
         <item itemvalue="Python.CrawlingModule" />
-        <item itemvalue="Python.yahooCrawling" />
+        <item itemvalue="Python.getTest" />
       </list>
     </recent_temporary>
   </component>
