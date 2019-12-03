@@ -38,8 +38,8 @@ def getNewContents(news_link,keyword):
 
     # 디버깅용이니 삭제하면됨==
     print(title)
-    print(content)
-    print(media)
+    # print(content)
+    # print(media)
     # ========================
 
     return title, content, media, keyword

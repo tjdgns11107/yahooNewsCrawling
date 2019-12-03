@@ -92,7 +92,7 @@ class md:
         table.drop_duplicates(inplace=True)  # 중복행 제거
 
         # 폴더 생성
-        dir_folder = Path('./crawlingData_' + MyDateForm.simpleTodayDateTypeE())
+        dir_folder = Path('./crawlingData')
         print(str(dir_folder))
         if not dir_folder.exists():
             dir_folder.mkdir(parents=True)
