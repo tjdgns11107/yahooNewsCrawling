@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 import pandas as pd
 from pathlib import Path
-from NewsContent import NewsContent
+# from NewsContent import NewsContent
 import MyDateForm
 import checkingDate
 import getNewContents
@@ -87,7 +87,7 @@ class md:
             # getNewsCount(news_links)
             page += 10
         # print(newsContents)
-        table = pd.DataFrame(newsContents, columns=['title', 'content', 'media','keyword'])
+        table = pd.DataFrame(newsContents, columns=['title', 'content', 'media','keyword', 'date'])
         table.head()
         table.drop_duplicates(inplace=True)  # 중복행 제거
 

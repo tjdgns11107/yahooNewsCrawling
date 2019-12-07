@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+import MyDateForm
 
 def getNewContents(news_link,keyword):
     response2 = requests.get(news_link)
@@ -42,7 +42,7 @@ def getNewContents(news_link,keyword):
     # print(media)
     # ========================
 
-    return title, content, media, keyword
+    return title, content, media, keyword, MyDateForm.simpleTodayDateTypeE()
     # getTitle = soup2.select_one('.hd > h1').text
     # getContent = soup2.select_one('p.ynDetailText').text
     # getMedia = soup2.select_one('p.ynCobrandBanner > a> img')['alt']

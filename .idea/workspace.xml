@@ -1,54 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4587c19-dcb7-4585-8ba5-c84c60bc97d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/test2.py" afterDir="false" />
+    <list default="true" id="e4587c19-dcb7-4585-8ba5-c84c60bc97d4" name="Default Changelist" comment="merge성공">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/CrawlingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/CrawlingModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/MainPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_144818" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_144949" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_15124" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_152936" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_16258" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_162844" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/newsContent_20191112_163335" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/ソフトバンク_20191112_163626" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191112/ソフトバンク_20191112_16472" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/merge.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_153838.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_154233.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_154440.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_155350.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_16101.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_161028.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_161052.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_161117.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_161141.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_16126.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_16655.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191119/ソフトバンク_20191119_16937.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191125/kara_20191125_20117.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191125/ク・ハラ_20191125_201019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191125/ソフトバンク_20191125_20012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191125/地震_20191125_20331.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191126/ソフトバンク_20191126_224911.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191126/ソフトバンク_20191126_225052.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/merge.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_205224.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_205357.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_212013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_212243.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_21278.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_213445.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_213557.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_214422.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/crawlingData_20191128/ソフトバンク_20191128_214852.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/MainCrawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MainCrawling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/MyDateForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MyDateForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/merge/merge.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_20191130_235616.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_20191130_235755.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_20191130_235845.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_2019121_01846.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_2019121_02256.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/crawlingData/ソフトバンク_2019123_21933.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/getNewContents.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/getNewContents.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/getdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/merge.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/GetData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +40,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlockchainStudy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainCrawling (1)">
+  <component name="RunManager" selected="Python.test2">
     <configuration name="CrawlingModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +73,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/CrawlingModule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/GetData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,27 +123,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getNewContents" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawling" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/getNewContents.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/getdata.py" />
+      <option name="SCRIPT_NAME" value="D:\workSpace\PythonTest\crawling\venv\GetData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainCrawling (1)" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.getdata" />
-        <item itemvalue="Python.getNewContents" />
+        <item itemvalue="Python.MainCrawling (1)" />
         <item itemvalue="Python.CrawlingModule" />
+        <item itemvalue="Python.GetData" />
+        <item itemvalue="Python.getdata" />
       </list>
     </recent_temporary>
   </component>
@@ -253,5 +220,16 @@
     <MESSAGE value="모듈화 성공" />
     <MESSAGE value="merge성공" />
     <option name="LAST_COMMIT_MESSAGE" value="merge성공" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/test2.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

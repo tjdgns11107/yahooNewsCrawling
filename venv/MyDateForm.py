@@ -13,5 +13,5 @@ def todayDateTypeE():
 
 def simpleTodayDateTypeE():
     now = datetime.now()
-    return ('%s%s%s' % (now.year, now.month, now.day))
+    return ('%s年 %s月 %s日' % (now.year, now.month, now.day))
 
