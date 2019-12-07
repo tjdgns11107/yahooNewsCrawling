@@ -3,7 +3,6 @@ import CrawlingModule
 
 class MainCrawling():
     def __init__(self, keywords):
-        keywords = ['ソフトバンク']
         # keyword = []
         # for val in keywords:
         #     keyword.append(val)
