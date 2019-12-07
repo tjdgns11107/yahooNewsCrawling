@@ -15,5 +15,6 @@ class MainCrawling():
 
         cm.runCrawling()
 
+#밑은 그냥 테스트용 test
 if (__name__ == '__main__'):
     MainCrawling('ソフトバンク')

@@ -17,7 +17,7 @@ class md:
         news_links = []
         todayNewsCnt = 0
         newsContents = []
-
+        searchKey = self.keyword
         def pageCnt():
             page = 1
             todayNewsCnt = 0
@@ -25,7 +25,7 @@ class md:
 
             while True:
                 # 검색 사이트
-                url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p="+self.keyword+"&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
+                url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p="+searchKey+"&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
                     page)
 
                 # url 요청해서 응답 받아서 저장
@@ -33,7 +33,6 @@ class md:
                 # 응답받은 text 을 html변수에 저장
                 html = response.text
                 # 키워드로 검색한 내용 링크 리스트 저장용 변수 선언
-
                 # bs4사용
                 soup = BeautifulSoup(html, 'html.parser')
 
@@ -41,22 +40,27 @@ class md:
 
                 # href를 찾는 코드
                 goToATages = soup.select('h2.t > a')
-                for atag in range(len(goToATages)):
-                    news_links.append(goToATages[atag]['href'])
-                    newsDate = soup.select('.l > .txt > p > .d')[atag].text.split('（')[0]  # 월月일日추출
-                    if checkingDate.todayNews(newsDate):
-                        todayNewsCnt += checkingDate.todayNews(newsDate)
-                    else:
-                        return todayNewsCnt
+                if len(goToATages) != 0:
+                    for atag in range(len(goToATages)):
+                        newsDate=0
+                        news_links.append(goToATages[atag]['href'])
+                        newsDate = soup.select('.l > .txt > p > .d')[atag].text.split('（')[0]  # 월月일日추출
+                        if checkingDate.todayNews(newsDate):
+                            todayNewsCnt += checkingDate.todayNews(newsDate)
+                        else:
+                            return todayNewsCnt
+
+                else:
+                    return todayNewsCnt
 
                 page += 10
                 print(page)
         count = pageCnt()
         print('count : ', count)
         lastPageNum = count
-        while page < lastPageNum:
+        while page <= lastPageNum:
             # 검색 사이트
-            url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p="+self.keyword+"&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
+            url = "https://news.yahoo.co.jp/search/;_ylt=A2Rivc6iSMZdWQ4A0xeEmuZ7?p=" + searchKey + "&vaop=a&to=0&st=&c_=dom&c_=c_int&c_=bus&c_=c_ent&c_=c_sci&c_=c_life&c_=loc&ei=UTF-8&&b=" + str(
                 page)
 
             # url 요청해서 응답 받아서 저장

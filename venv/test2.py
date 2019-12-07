@@ -41,8 +41,7 @@ class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         def getdata():
             keyword_list = get_keyword_list()
-            str = ['ソフトバンク']
-
+            str=[]
             for i, keyword in enumerate(keyword_list):
                 print(keyword["keyword"])
                 str.append(keyword["keyword"])
@@ -125,7 +124,7 @@ class SearchSetting(tk.Frame):
 
         def refresh():
             ROW_IDS.clear()
-            entry.delete(0)  # clear subject
+            entry.delete(0, tk.END)  # clear subject
             load_keyword_list()
 
         def load_keyword_list():

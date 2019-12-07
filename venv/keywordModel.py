@@ -35,7 +35,7 @@ def get_keyword_list(c):
 @with_cursor
 def add_keyword(c, keyword):
     print(keyword)
-    c.execute("INSERT INTO keyword (keyword) VALUES (?)", str(keyword))
+    c.execute("INSERT INTO keyword (keyword) VALUES ('"+keyword+"')")
 
 
 @with_cursor
